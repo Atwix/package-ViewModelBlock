@@ -1,0 +1,9 @@
+<?php
+/** @var Magento\Framework\View\Element\Template $block */
+/** @var Atwix\ViewModelBlock\ViewModel\LoveLabelView $viewModel */
+$viewModel = $block->getData('viewModel');
+?>
+
+<div class="love-label" style="color:red;">
+    <?php echo $viewModel->getLoveLabel(); ?>
+</div>
